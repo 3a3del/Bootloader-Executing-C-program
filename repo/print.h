@@ -99,7 +99,7 @@ void printstr_col(char* string, color fg, color bg) {
 }
 void printstr(char* string) { printstr_col(string, DEF_FG, DEF_BG); }
 
-// prints 8bytes as hex
+/*// prints 8bytes as hex
 void printhex8_col(int64_t number, color fg, color bg) {
     const char hex_lookup[] = "0123456789ABCDEF";
     for(int i = (sizeof(number) * 8) -4; i >= 0; i -= 4)
@@ -130,7 +130,7 @@ void printhex1_col(int8_t number, color fg, color bg) {
         printch_col(hex_lookup[(number>>i) & 0xf], fg, bg);
 }
 void printhex1(int8_t number) { printhex1_col(number, DEF_FG, DEF_BG); }
-
+*/
 // inits the screen buffer (clears the screen)
 void init_screen() { clear_screen(DEF_FG, DEF_BG); }
 
