@@ -16,14 +16,18 @@ This project demonstrates a simple bootloader for x86 systems written in assembl
 To simplify the build and run process, a `run.sh` script is provided. This script assembles, compiles, links, and runs the bootloader and kernel.
 
 ### Running the Script
+1. **Naviagte to the Directory:**
+   ```bash
+    cd protected_mode
+    ```
 
-1. **Make the Script Executable:**
+2. **Make the Script Executable:**
 
     ```bash
     chmod +x run.sh
     ```
 
-2. **Execute the Script:**
+3. **Execute the Script:**
 
     ```bash
     ./run.sh
